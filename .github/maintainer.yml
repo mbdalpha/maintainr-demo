@@ -1,0 +1,21 @@
+# maintainr-demo-fixture:v1
+version: 1
+mode: suggest
+triage:
+  duplicate_threshold: 0.50
+  stale_after_days: 30
+required_bug_fields:
+  - reproduction
+  - expected_behavior
+  - environment
+labels:
+  bug: "type: bug"
+  support: "type: support"
+  feature: "type: feature"
+  documentation: "type: documentation"
+  needs_info: "needs information"
+  security: "security review"
+automation:
+  apply_labels: true
+  ask_for_missing_information: false
+  close_duplicates: false

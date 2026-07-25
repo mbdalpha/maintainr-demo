@@ -11,3 +11,8 @@ Bug reports should include:
 
 Never include access tokens, passwords, session cookies, private keys, customer
 data, or unredacted security reports.
+
+## OAuth callback reports
+
+Include whether the callback preserved the state cookie and whether browser
+tracking protection was enabled.
